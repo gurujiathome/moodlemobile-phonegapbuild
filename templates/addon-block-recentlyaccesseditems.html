@@ -11,12 +11,15 @@
                     <p><core-format-text [text]="item.coursename"></core-format-text></p>
                 </a>
             </ion-card>
+
+        </div>
+		<div>
 			<ion-card>
-                <a ion-item text-wrap detail-none class="core-course-module-handler item-media" (click)="action($event, item)" [title]="item.name">
+                <a ion-item text-wrap detail-none >
                     <img item-start [src]="https://myprivateguru.files.wordpress.com/2019/08/slider2.jpg" alt="" role="presentation" class="core-module-icon">
                 </a>
             </ion-card>
-        </div>
+		</div>
     </div>
 
     <core-empty-box *ngIf="items.length <= 0" image="assets/img/icons/activities.svg" [message]="'addon.block_recentlyaccesseditems.noitems' | translate"></core-empty-box>
