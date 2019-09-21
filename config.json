@@ -31,7 +31,9 @@
     "font_sizes": [
         62.5,
         75.89,
-        93.75
+        93.75,
+		100
+		
     ],
     "customurlscheme": "moodlemobile",
     "siteurl": "http://3.81.229.43",
