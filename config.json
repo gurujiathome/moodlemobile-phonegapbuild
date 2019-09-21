@@ -1,5 +1,5 @@
 {
-    "app_id": "com.yprivateguru.mobile",
+    "app_id": "com.myprivateguru.mobile",
     "appname": "MyPrivateGuru",
     "desktopappname": "MyPrivateGuru",
     "versioncode": 3710,
@@ -34,7 +34,7 @@
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://54.159.118.205",
+    "siteurl": "http://3.81.229.43",
     "sitename": "",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
