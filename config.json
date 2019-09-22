@@ -2,7 +2,7 @@
     "app_id": "com.myprivateguru.mobile",
     "appname": "MyPrivateGuru",
     "desktopappname": "MyPrivateGuru",
-    "versioncode": 3710,
+    "versioncode": 3711,
     "versionname": "3.7.1-dev",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
@@ -36,7 +36,7 @@
 		
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://3.81.229.43",
+    "siteurl": "http://18.212.30.25",
     "sitename": "",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
