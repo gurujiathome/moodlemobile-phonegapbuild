@@ -9,7 +9,7 @@
     </div>
 </ion-item-divider>
 <core-loading [hideUntil]="loaded" class="core-loading-center">
-    <core-empty-box *ngIf="courses.length == 0" image="assets/img/icons/courses.svg" [message]="'addon.block_starredcourses.nocourses' | translate"></core-empty-box>
+    <core-empty-box *ngIf="courses.length == 0" image="assets/img/icons/courses_star.svg" [message]="'addon.block_starredcourses.nocourses' | translate"></core-empty-box>
     <!-- List of courses. -->
     <div class="safe-area-page">
         <div class="core-horizontal-scroll">
