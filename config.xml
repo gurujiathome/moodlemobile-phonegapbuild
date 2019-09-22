@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.myprivateguru.mobile"
-        versionCode = "37102"
-        android-versionCode="37102"
+        versionCode = "37103"
+        android-versionCode="37103"
         version   = "3.7.2">
     <name>MyPrivateGuru</name>
 
