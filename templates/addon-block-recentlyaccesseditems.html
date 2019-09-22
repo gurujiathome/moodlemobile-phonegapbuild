@@ -13,15 +13,9 @@
             </ion-card>
 
         </div>
-		<div>
-			<ion-card>
-                <a ion-item text-wrap detail-none >
-                    <img src="https://myprivateguru.files.wordpress.com/2019/08/slider2.jpg" >
-                </a>
-            </ion-card>
-		</div>
+	
     </div>
 
-    <core-empty-box *ngIf="items.length <= 0" image="assets/img/icons/activities.svg" [message]="'addon.block_recentlyaccesseditems.noitems' | translate"></core-empty-box>
+    <core-empty-box *ngIf="items.length <= 0" image="assets/img/icons/recent_activities.svg" [message]="'addon.block_recentlyaccesseditems.noitems' | translate"></core-empty-box>
 
 </core-loading>
