@@ -26,7 +26,7 @@
             <ion-option value="hidden" *ngIf="showHidden" [disabled]="disableHidden">{{ 'addon.block_myoverview.hiddencourses' | translate }}</ion-option>
         </ion-select>
     </div>
-    <core-empty-box *ngIf="courses[selectedFilter].length == 0" image="assets/img/icons/courses.svg" [message]="'addon.block_myoverview.nocourses' | translate"></core-empty-box>
+    <core-empty-box *ngIf="courses[selectedFilter].length == 0" image="assets/img/icons/no_courses.svg" [message]="'addon.block_myoverview.nocourses' | translate"></core-empty-box>
 
     <!-- Filter courses. -->
     <ion-searchbar #searchbar *ngIf="showFilter" [(ngModel)]="courses.filter" (ionInput)="filterChanged($event)" (ionCancel)="filterChanged()" [placeholder]="'core.courses.filtermycourses' | translate">
